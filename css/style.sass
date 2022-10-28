@@ -15,7 +15,10 @@ body
     margin: 0
     font-family: 'SANGJUDajungdagam'
     box-sizing: border-box
-    background-image: url(./../images/bg.png)
+    background-color: #b2f1e8;
+@include filter-gradient(#b2f1e8, #7fd6eb, vertical);
+@include background-image(linear-gradient(top,  #b2f1e8 0%,#7fd6eb 100%));
+
 
 .sr-only
     text-indent: -9999px
@@ -232,7 +235,7 @@ button
     justify-content: center
     flex-direction: column
     width: 100%
-    height: 150%
+    height: 100%
     background-color: #b2f1e8
 
     .popUpInfo-content

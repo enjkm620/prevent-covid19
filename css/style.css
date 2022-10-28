@@ -24,7 +24,11 @@ body {
   margin: 0;
   font-family: "SANGJUDajungdagam";
   box-sizing: border-box;
-  background-image: url(./../images/bg.png);
+  background: #b2f1e8;
+background: -moz-linear-gradient(left,  #b2f1e8 0%, #7fd6eb 100%);
+background: -webkit-linear-gradient(left,  #b2f1e8 0%,#7fd6eb 100%);
+background: linear-gradient(to right,  #b2f1e8 0%,#7fd6eb 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2f1e8', endColorstr='#7fd6eb',GradientType=1 );
 }
 
 .sr-only {
@@ -264,7 +268,7 @@ button {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 150%;
+  height: 100%;
   background-color: #b2f1e8;
 }
 #popUpInfo .popUpInfo-content {
